@@ -1,9 +1,10 @@
+import patterns from './patterns.js'
 
 let Regexter = {}
 
 export function getEmail(text){
     try{
-        let regex = /\S+@\S+\.\S+/gim
+        let regex = patterns.email
         let ret = text.match(regex)
         return ret ? ret : [];
     } catch(err) {
