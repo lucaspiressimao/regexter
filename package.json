@@ -1,0 +1,27 @@
+{
+  "name": "regexter",
+  "version": "0.1.0",
+  "description": "Node library to verify, create and get data from string using pre-built regex",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node -r sucrase/register teste.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaspiressimao/regexter.git"
+  },
+  "keywords": [
+    "regex",
+    "nodejs"
+  ],
+  "author": "Lucas Pires Simao <lucaspiressimao@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucaspiressimao/regexter/issues"
+  },
+  "homepage": "https://github.com/lucaspiressimao/regexter#readme",
+  "dependencies": {
+    "sucrase": "^3.12.1"
+  }
+}
