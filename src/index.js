@@ -1,6 +1,15 @@
-import { getEmailList } from './email.js'
+import { getEmailList, getFirstEmail } from './email.js'
 
-// Email
-module.exports.getEmailList = getEmailList
+let regexter = {
+    // Email
+    getEmailList,
+    getFirstEmail
 
-export default { getEmailList }
+    // Telefone
+}
+
+Object.keys(regexter).forEach(element => {
+    exports[element] = regexter[element]
+});
+
+export default regexter
