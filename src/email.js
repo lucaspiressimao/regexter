@@ -19,5 +19,3 @@ export function getFirstEmail(text) {
         return ""
     }
 }
-
-export default { getEmailList, getFirstEmail }
