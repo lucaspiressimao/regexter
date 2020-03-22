@@ -1,4 +1,4 @@
-import { getAllEmail, getOneEmail } from './builder.js'
+import { getAllEmail, getOneEmail } from './builder'
 
 export function getEmailList(text) {
     try {

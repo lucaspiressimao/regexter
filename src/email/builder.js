@@ -1,4 +1,4 @@
-import { flagsPattern, emailPattern } from './patterns.js'
+import { flagsPattern, emailPattern } from '../patterns.js'
 
 export function getAllEmail() {
     let _flags = flagsPattern.global + flagsPattern.multiLine 

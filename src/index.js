@@ -1,4 +1,4 @@
-import { getEmailList, getFirstEmail } from './email.js'
+import { getEmailList, getFirstEmail } from './email/index'
 
 let regexter = {
     // Email
