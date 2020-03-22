@@ -1,3 +1,6 @@
+# Skip NPM folder
+/lib/**
+
 # Logs
 logs
 *.log
